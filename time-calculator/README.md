@@ -14,22 +14,22 @@ If the function is given the optional starting day of the week parameter, then t
 
 Below are some examples of different cases the function should handle. Pay close attention to the spacing and punctuation of the results.
 
-`add_time("3:00 PM", "3:10")`
+`add_time("3:00 PM", "3:10")`<br>
 `# Returns: 6:10 PM`
 
-`add_time("11:30 AM", "2:32", "Monday")`
+`add_time("11:30 AM", "2:32", "Monday")`<br>
 `# Returns: 2:02 PM, Monday`
 
-`add_time("11:43 AM", "00:20")`
+`add_time("11:43 AM", "00:20")`<br>
 `# Returns: 12:03 PM`
 
-`add_time("10:10 PM", "3:30")`
+`add_time("10:10 PM", "3:30")`<br>
 `# Returns: 1:40 AM (next day)`
 
-`add_time("11:43 PM", "24:20", "tueSday")`
+`add_time("11:43 PM", "24:20", "tueSday")`<br>
 `# Returns: 12:03 AM, Thursday (2 days later)`
 
-`add_time("6:30 PM", "205:12")`
+`add_time("6:30 PM", "205:12")`<br>
 `# Returns: 7:42 AM (9 days later)`
 
 Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
